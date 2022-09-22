@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import * as cdk from "aws-cdk-lib";
-import { FlowLogStack, Ec2Stack } from "../lib/vpc-flow-logs-stack";
+import { FlowLogStack } from "../lib/flow-logs-stack";
+import { Ec2Stack } from "../lib/ec2-stack";
 import CONFIG from "./../config.json";
 
 const app = new cdk.App();
