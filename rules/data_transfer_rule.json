@@ -1,0 +1,24 @@
+{
+	"AggregateOn": "Sum",
+	"Contribution": {
+		"Filters": [],
+		"Keys": [
+			"srcaddr",
+			"dstaddr"
+		],
+		"ValueOf": "bytes"
+	},
+	"LogFormat": "CLF",
+	"LogGroupNames": [
+		"Ec2FlowLogLogGroup"
+	],
+	"Schema": {
+		"Name": "CloudWatchLogRule",
+		"Version": 1
+	},
+	"Fields": {
+		"4": "srcaddr",
+		"5": "dstaddr",
+		"10": "bytes"
+	}
+}
