@@ -20,6 +20,8 @@ date: 2022-09-20
   src="/thumbnail/vpc-flow-logs.png"
 />
 
+![aws_devops-vpc-mentor-talk drawio (1)](https://user-images.githubusercontent.com/20411077/191881856-fd0e2a69-c4a4-47e6-983a-c0d663c5a2d0.png)
+
 ## FlowLogs and LogGroup
 
 assume we want to monitor a network interface (EC2, VPC, NAT)
