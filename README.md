@@ -2,16 +2,23 @@
 title: Introduction to VPC FlowLogs
 author: haimtran
 publishedDate: 20/09/2022
-date: 20/09/2022
+date: 2022-09-20
 ---
 
 ## Introduction
 
-[GitHub]() this shows an example using vpc flowlogs to monitor network traffic in/out of a network interface.
+[GitHub](https://github.com/cdk-entest/vpc-flow-logs) this shows an example using vpc flowlogs to monitor network traffic in/out of a network interface.
 
 - create flowlogs and loggroup
 - filter the flowlogs and create metric
 - cloudwatch insightrule - top contribute network traffic
+
+<LinkedImage
+  href="#"
+  height={400}
+  alt="VPC FlowLogs"
+  src="/thumbnail/vpc-flow-logs.png"
+/>
 
 ## FlowLogs and LogGroup
 
